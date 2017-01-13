@@ -11,7 +11,7 @@ To keep track of different emacs hacks I read about and want to get into my work
     ret - goes to the error in source
 
 
-## Projectile mode (globally active for me):
+## Projectile mode:
     C-c p c - compile project from root - enter the make command in buffer
     C-c p b - switch to buffer of a file in current project
     C-c p k - kills all buffers of that project
@@ -22,3 +22,9 @@ start and keep running a python process if you want to have an ipython/jupyter w
     C-c C-z - go to the shell running a python process
     C-c C-l - send a file to shell 
     C-c C-r - python shell send selected region (no region = current line)
+
+
+## Ibuffer mode - interactive mode
+
+    'o' - View the buffer in another window.
+    'C-o' - View the buffer in another windon, DON'T select the new window.
