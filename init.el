@@ -10,6 +10,8 @@
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives
+             '("elpy" . "https://jorgenschaefer.github.io/packages/"))
 
 
 ;; Load and activate emacs packages. Do this first so that the
@@ -57,6 +59,9 @@
 
     ;; git integration
     magit
+
+    ;; elpy
+    elpy
 
     ;; autopep8 for python
     py-autopep8
@@ -160,6 +165,7 @@
  '(custom-safe-themes
    (quote
     ("f81a9aabc6a70441e4a742dfd6d10b2bae1088830dc7aba9c9922f4b1bd2ba50" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" default)))
+ '(electric-pair-mode t)
  '(fci-rule-color "#2a2a2a")
  '(global-auto-revert-mode t)
  '(magit-use-overlays nil)
@@ -181,9 +187,9 @@
 ;;;;
 ;; Python
 ;;;;
-
+(elpy-enable)
 (require 'py-autopep8)
-(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
 
 ;;;;
