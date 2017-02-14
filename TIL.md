@@ -23,6 +23,11 @@ start and keep running a python process if you want to have an ipython/jupyter w
     C-c C-l - send a file to shell 
     C-c C-r - python shell send selected region (no region = current line)
 
+## Elpy:
+    C-c C-d - finds documentation for object (either read the doc string) or do elpy-goto-definition
+    M-. - go to the definition in source
+    C-x 4 M-. - go to definition in another window
+    C-c C-e - for code at point select it everywhere in the buffer and edit it
 
 ## Ibuffer mode - interactive mode
 
