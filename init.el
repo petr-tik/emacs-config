@@ -190,7 +190,8 @@
 (elpy-enable)
 (require 'py-autopep8)
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
-
+;;(global-unset-key (kbd "M-."))
+;; (global-set-key (kbd "M-.") 'elpy-goto-definition-other-window) 
 
 ;;;;
 ;; C

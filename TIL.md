@@ -28,6 +28,7 @@ start and keep running a python process if you want to have an ipython/jupyter w
     M-. - go to the definition in source
     C-x 4 M-. - go to definition in another window
     C-c C-e - for code at point select it everywhere in the buffer and edit it
+    C-c C-c send the buffer to python shell (similar to python major mode)
 
 ## Ibuffer mode - interactive mode
 
