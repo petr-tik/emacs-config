@@ -13,6 +13,7 @@ To keep track of different emacs hacks I read about and want to get into my work
 
 ## Projectile mode:
     C-c p c - compile project from root - enter the make command in buffer
+    C-c p s g - grep from root directory of the project
     C-c p b - switch to buffer of a file in current project
     C-c p k - kills all buffers of that project
  
