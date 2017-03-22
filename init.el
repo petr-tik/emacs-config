@@ -221,8 +221,11 @@
  )
 
 
+;; disable vc - I use magit anyway
+(setq vc-handled-backends ())
+
 ;;;;
-;; C
+;; C++
 ;;;;
 (require 'irony)
 
