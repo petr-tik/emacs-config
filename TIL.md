@@ -35,3 +35,12 @@ start and keep running a python process if you want to have an ipython/jupyter w
 
     'o' - View the buffer in another window.
     'C-o' - View the buffer in another windon, DON'T select the new window.
+
+## Proced
+
+A built-in major mode to examine running processes and send signals to them.
+
+  * 's S' - interactive sort
+  * 's c' - sort by CPU utilisation  
+  * 'T' for tree mode. Not as pretty as pstree, but does the job
+  * 'h' for help
