@@ -167,7 +167,10 @@
     ("f81a9aabc6a70441e4a742dfd6d10b2bae1088830dc7aba9c9922f4b1bd2ba50" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" default)))
  '(electric-pair-mode t)
  '(fci-rule-color "#2a2a2a")
+ '(gdb-many-windows t)
  '(global-auto-revert-mode t)
+ '(gud-tooltip-echo-area t)
+ '(gud-tooltip-mode t)
  '(magit-use-overlays nil)
  '(markdown-command "/usr/bin/pandoc")
  '(mouse-wheel-mode nil)
@@ -213,12 +216,7 @@
  (interactive)
  (add-hook 'before-save-hook 'clang-format-buffer nil t))
 (add-hook 'c-mode-hook 'clang-format-enable-on-save)
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
 
 
 ;; disable vc - I use magit anyway
