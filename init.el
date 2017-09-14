@@ -127,9 +127,6 @@
 ;; These customizations make editing a bit nicer.
 (load "editing.el")
 
-;; Hard-to-categorize customizations
-(load "misc.el")
-
 ;; For editing lisps
 (load "elisp-editing.el")
 
@@ -166,15 +163,32 @@
    (quote
     ("f81a9aabc6a70441e4a742dfd6d10b2bae1088830dc7aba9c9922f4b1bd2ba50" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" default)))
  '(electric-pair-mode t)
- '(fci-rule-color "#2a2a2a")
  '(gdb-many-windows t)
  '(global-auto-revert-mode t)
  '(gud-tooltip-echo-area t)
  '(gud-tooltip-mode t)
- '(magit-use-overlays nil)
+ '(magit-use-overlays t)
  '(markdown-command "/usr/bin/pandoc")
  '(mouse-wheel-mode nil)
  '(tool-bar-mode nil))
+
+
+;;;;
+;; Misc
+;;;;
+
+;; Changes all yes/no questions to y/n type
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; shell scripts
+(setq-default sh-basic-offset 2)
+(setq-default sh-indentation 2)
+
+;; No need for ~ files when editing
+(setq create-lockfiles nil)
+
+;; Go straight to scratch buffer on startup
+(setq inhibit-startup-message t)
 
 
 
