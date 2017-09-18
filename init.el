@@ -170,6 +170,7 @@
  '(magit-use-overlays t)
  '(markdown-command "/usr/bin/pandoc")
  '(mouse-wheel-mode nil)
+ '(sentence-end-double-space nil)
  '(tool-bar-mode nil))
 
 
