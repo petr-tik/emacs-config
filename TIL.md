@@ -30,7 +30,15 @@ start and keep running a python process if you want to have an ipython/jupyter w
     C-x 4 M-. - go to definition in another window
     C-c C-e - for code at point select it everywhere in the buffer and edit it
     C-c C-c send the buffer to python shell (similar to python major mode)
+    
+    
+## ELisp mode
 
+    C-x C-e - 'eval-last-sexp', evaluates the last s-expression before point and prints results to the echo area. Allows to evaluate (* 25 6 7 8) = 8400 and other quick calculator functions. 
+    
+
+    
+    
 ## Ibuffer mode - interactive mode
 
     'o' - View the buffer in another window.
