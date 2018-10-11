@@ -173,7 +173,7 @@
  '(mouse-wheel-mode nil)
  '(package-selected-packages
    (quote
-    (evil cargo racer rust-mode rust-playground elpy yasnippet web-mode url-http-ntlm tide tagedit soap-client smex rainbow-delimiters pyvenv py-autopep8 projectile paredit multiple-cursors monokai-theme markdown-mode magit irony ido-ubiquitous highlight-indentation git-rebase-mode git-commit-mode fsm find-file-in-project exec-path-from-shell dockerfile-mode docker company clojure-mode-extra-font-locking clang-format cl-lib-highlight cider)))
+    (flymake-rust evil cargo racer rust-mode rust-playground elpy yasnippet web-mode url-http-ntlm tide tagedit soap-client smex rainbow-delimiters pyvenv py-autopep8 projectile paredit multiple-cursors monokai-theme markdown-mode magit irony ido-ubiquitous highlight-indentation git-rebase-mode git-commit-mode fsm find-file-in-project exec-path-from-shell dockerfile-mode docker company clojure-mode-extra-font-locking clang-format cl-lib-highlight cider)))
  '(rust-rustfmt-bin "/home/petr_tik/.cargo/bin/cargo-fmt")
  '(sentence-end-double-space nil)
  '(tool-bar-mode nil))
